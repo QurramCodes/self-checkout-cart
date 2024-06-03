@@ -323,7 +323,7 @@ nav {
 
 @media (width > 1024px) {
   .container__right {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 5fr 10fr;
     align-items: center;
   }
 
@@ -354,4 +354,21 @@ nav {
     max-width: 400px;
     margin-inline-start: unset;
   }
+}
+.container__email {
+  margin-bottom: 1rem;
+}
+
+.container__email input[type="email"] {
+  width: 70%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.container__email input[type="email"]:focus {
+  border-color: var(--primary-color);
+  outline: none;
 }
