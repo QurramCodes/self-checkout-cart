@@ -22,7 +22,7 @@ const scrollRevealOption = {
 const submitBtn = document.getElementById("submitBtn");
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault(); 
-  window.location.href = "http://192.168.0.24";
+  window.location.href = "http://192.168.1.14";
 });
 
 ScrollReveal().reveal(".container__left h1", {
